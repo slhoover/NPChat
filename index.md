@@ -20,6 +20,8 @@ The backend of the MVP for both modes follows the same pipeline. For both modes,
 
 ## Try it out!
 [Click Here to try NPChat for yourself!](https://chatbot-kf5skpawx3ew3ho63mnlub.streamlit.app)
+
+/Users/sarahhoover/Downloads/2023-12-14 13-33-15.mp4
  
 ## Model Evaluation
 In order to generate the most appropriate response, the team initially used Rouge Scores for evaluation. Although the Rouge Scores are a good indicator of model performance, these metrics did not serve well for LLM-Powered NPC. The reason being is that the purpose of the MVP is to have a dynamic and, for the most part, unique interaction/conversation, and therefore the problem with Rouge Scores is that there is no “right” answer for conversational questions. With that being said, the team pivoted towards human annotation to evaluate DialogStudio-T5 and LLaMa-2 performance.
@@ -33,15 +35,18 @@ Through multiple experimentation, the team noticed that the MVP was able to conv
 
 ## Challenges and Future Steps 
 The HuggingFace NPC Dataset:  
--Small set of main characters 
--Limited dialogue combinations
--Combination of DialogStudio-T5 and LlaMa-2 
-Ideally have one model
-Implementing the NPChat into a video game
+-Small set of main characters  
+-Limited dialogue combinations  
+-Combination of DialogStudio-T5 and LlaMa-2  
+Ideally have one model  
+Implementing the NPChat into a video game  
 Models sometimes hallucinate or produce no response, even with RAG
 
 ## Acknowledgements
 
-We would like to thank our capstone instructors, Zona Kostic and Cornelia Ilin. We are also grateful to Dr. Mark Butler and the Salesforce team for their guidance. We would also like to thank previous capstone teams [LanguageX](https://www.ischool.berkeley.edu/projects/2023/languagex) and [Tailings Identification] (https://ginnyp.github.io/tailings) for providing inspiration for our website.
+We would like to thank our capstone instructors, Zona Kostic and Cornelia Ilin. We are also grateful to Dr. Mark Butler and the Salesforce team for their guidance. We would also like to thank previous capstone teams [LanguageX](https://www.ischool.berkeley.edu/projects/2023/languagex) and [Tailings Identification](https://ginnyp.github.io/tailings) for providing inspiration for our website.
 
+## Code
+
+You can check out our code [here](https://github.com/slhoover/NPChat)
 
