@@ -21,7 +21,11 @@ The backend of the MVP for both modes follows the same pipeline. For both modes,
 ## Try it out!
 [Click Here to try NPChat for yourself!](https://chatbot-kf5skpawx3ew3ho63mnlub.streamlit.app)
 
-/Users/sarahhoover/Downloads/2023-12-14 13-33-15.mp4
+
+
+https://github.com/slhoover/NPChat/assets/89613712/846eb12a-22fc-4466-adf9-49c44ce29ca5
+
+
  
 ## Model Evaluation
 In order to generate the most appropriate response, the team initially used Rouge Scores for evaluation. Although the Rouge Scores are a good indicator of model performance, these metrics did not serve well for LLM-Powered NPC. The reason being is that the purpose of the MVP is to have a dynamic and, for the most part, unique interaction/conversation, and therefore the problem with Rouge Scores is that there is no “right” answer for conversational questions. With that being said, the team pivoted towards human annotation to evaluate DialogStudio-T5 and LLaMa-2 performance.
