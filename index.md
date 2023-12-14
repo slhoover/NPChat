@@ -29,7 +29,7 @@ Through multiple experimentation, the team noticed that the MVP was able to conv
 
 
 ## Meet the NPChat Team
-![NPChat Rockstars](/images/MVP.png)
+![NPChat Rockstars](/images/team.png)
 
 ## Challenges and Future Steps 
 The HuggingFace NPC Dataset:  
