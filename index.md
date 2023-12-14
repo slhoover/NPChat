@@ -18,16 +18,18 @@ The backend of the MVP for both modes follows the same pipeline. For both modes,
 
 ![Diagram of MVP](/images/MVP.png)
 
+## Try it out!
+[Click Here to try NPChat for yourself!](https://chatbot-kf5skpawx3ew3ho63mnlub.streamlit.app)
  
 ## Model Evaluation
 In order to generate the most appropriate response, the team initially used Rouge Scores for evaluation. Although the Rouge Scores are a good indicator of model performance, these metrics did not serve well for LLM-Powered NPC. The reason being is that the purpose of the MVP is to have a dynamic and, for the most part, unique interaction/conversation, and therefore the problem with Rouge Scores is that there is no “right” answer for conversational questions. With that being said, the team pivoted towards human annotation to evaluate DialogStudio-T5 and LLaMa-2 performance.
  
-## Why 2 models? 
+## Why 2 Models? 
 Through multiple experimentation, the team noticed that the MVP was able to converse with the user using DialogStudio-T5. However, the MVP was not able to generate sensible responses. Integrating LlaMa-2 allowed the MVP to 1) converse and 2) generate logical responses to the input. 
 
 
-## The NPChat Team
-
+## Meet the NPChat Team
+![NPChat Rockstars](/images/MVP.png)
 
 ## Challenges and Future Steps 
 The HuggingFace NPC Dataset:  
@@ -40,6 +42,6 @@ Models sometimes hallucinate or produce no response, even with RAG
 
 ## Acknowledgements
 
-We would like to thank our capstone instructors, Zona Kostic and Cornelia Ilin. We are also grateful to Dr. Mark Butler and the Salesforce team for their guidance. We would also like to thank previous capstone teams [LanguageX](https://www.ischool.berkeley.edu/projects/2023/languagex) and [Tailings Identification] (https://ginnyp.github.io/tailings/) for providing inspiration for our website.
+We would like to thank our capstone instructors, Zona Kostic and Cornelia Ilin. We are also grateful to Dr. Mark Butler and the Salesforce team for their guidance. We would also like to thank previous capstone teams [LanguageX](https://www.ischool.berkeley.edu/projects/2023/languagex) and [Tailings Identification] (https://ginnyp.github.io/tailings) for providing inspiration for our website.
 
 
