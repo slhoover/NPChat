@@ -21,9 +21,9 @@ The backend of the MVP for both modes follows the same pipeline. For both modes,
 ## Try it out!
 [Click Here to try NPChat for yourself!](https://chatbot-kf5skpawx3ew3ho63mnlub.streamlit.app)  
 
-![Create mode - you will need to supply a short biography for the character you wish to create](/images/create.png)
+![Create mode - you will need to supply a short biography for the character you wish to create](/images/Create.png)
 
-![Chat mode - have a conversation with an existing character](/images/chat.png)
+![Chat mode - have a conversation with an existing character](/images/Chat.png)
 
 [Click here for an example video of creating your own character](https://github.com/slhoover/NPChat/assets/89613712/846eb12a-22fc-4466-adf9-49c44ce29ca5)
 
