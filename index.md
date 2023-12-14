@@ -19,11 +19,11 @@ The backend of the MVP for both modes follows the same pipeline. For both modes,
 ![Diagram of MVP](/images/MVP.png)
 
 ## Try it out!
-[Click Here to try NPChat for yourself!](https://chatbot-kf5skpawx3ew3ho63mnlub.streamlit.app)
+[Click Here to try NPChat for yourself!](https://chatbot-kf5skpawx3ew3ho63mnlub.streamlit.app)  
 
 
 
-https://github.com/slhoover/NPChat/assets/89613712/846eb12a-22fc-4466-adf9-49c44ce29ca5
+[Create your own character]https://github.com/slhoover/NPChat/assets/89613712/846eb12a-22fc-4466-adf9-49c44ce29ca5
 
 
  
