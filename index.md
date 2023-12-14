@@ -21,9 +21,11 @@ The backend of the MVP for both modes follows the same pipeline. For both modes,
 ## Try it out!
 [Click Here to try NPChat for yourself!](https://chatbot-kf5skpawx3ew3ho63mnlub.streamlit.app)  
 
+![Create mode - you will need to supply a short biography for the character you wish to create](/images/create.png)
 
+![Chat mode - have a conversation with an existing character](/images/chat.png)
 
-![Create your own character](https://github.com/slhoover/NPChat/assets/89613712/846eb12a-22fc-4466-adf9-49c44ce29ca5)
+[Click here for an example video of creating your own character](https://github.com/slhoover/NPChat/assets/89613712/846eb12a-22fc-4466-adf9-49c44ce29ca5)
 
 
  
@@ -54,3 +56,65 @@ We would like to thank our capstone instructors, Zona Kostic and Cornelia Ilin. 
 
 You can check out our code [here](https://github.com/slhoover/NPChat)
 
+## Bibliography
+
+### Dataset
+https://huggingface.co/datasets/amaydle/npc-dialogue/viewer/default/train?q=Indiana+Jones
+
+### Academic papers
+https://arxiv.org/pdf/2302.08362.pdf 
+https://arxiv.org/pdf/2305.16938.pdf  
+https://arxiv.org/abs/2109.03910  
+https://arxiv.org/pdf/2205.11503.pdf  
+https://arxiv.org/abs/2204.10825v1  
+
+
+### General NLP/model training
+https://huggingface.co/docs/transformers/training  
+https://medium.com/the-owl/how-to-get-model-summary-in-pytorch-57db7824d1e3  
+https://www.kdnuggets.com/2017/08/deep-learning-train-chatbot-talk-like-me.html/2  
+https://github.com/hyperconnect/pseudo-dialog-prompting 
+
+### Model evaluation
+https://blog.fastforwardlabs.com/2022/07/11/automated-metrics-for-evaluating-text-style-transfer.html  
+
+### LLaMa-2
+https://towardsdatascience.com/fine-tune-your-own-llama-2-model-in-a-colab-notebook-df9823a04a32  
+https://github.com/huggingface/blog/blob/main/Llama2-for-non-engineers.md  
+
+
+### DialoGPT
+https://blog.startupstash.com/how-to-create-your-own-ai-chatbot-using-dialogpt-22cff1e0f315  
+
+## BERT
+https://medium.com/geekculture/simple-chatbot-using-bert-and-pytorch-part-1-2735643e0baa  
+
+### DialogStudio
+https://github.com/salesforce/DialogStudio  
+
+### T5
+https://towardsdatascience.com/poor-mans-gpt-3-few-shot-text-generation-with-t5-transformer-51f1b01f843e  
+https://www.kaggle.com/code/kreeshrajani/fine-tune-t5-for-conversational-model  
+
+
+### RAG
+https://huggingface.co/docs/transformers/model_doc/rag  
+https://www.pinecone.io/learn/sagemaker-rag/  
+https://research.ibm.com/blog/retrieval-augmented-generation-RAG  
+https://www.youtube.com/watch?v=T-D1OfcDW1M  
+https://aws.amazon.com/blogs/machine-learning/question-answering-using-retrieval-augmented-generation-with-foundation-models-in-amazon-sagemaker-jumpstart/  
+https://www.pinecone.io/learn/sagemaker-rag/  
+https://www.databricks.com/blog/LLM-auto-eval-best-practices-RAG  
+https://outerbounds.com/blog/retrieval-augmented-generation/  
+https://github.com/IntelLabs/fastRAG  
+https://huggingface.co/blog/ray-rag  
+
+
+
+### Model Deployment
+https://github.com/huggingface/notebooks/blob/main/sagemaker/11_deploy_model_from_hf_hub/deploy_transformer_model_from_hf_hub.ipynb  
+https://github.com/huggingface/notebooks/blob/main/sagemaker/11_deploy_model_from_hf_hub/deploy_transformer_model_from_hf_hub.ipynb  
+https://github.com/huggingface/notebooks/blob/main/sagemaker/11_deploy_model_from_hf_hub/deploy_transformer_model_from_hf_hub.ipynb  
+
+### Website building
+https://medium.com/@shobhitrathi10/github-io-getting-started-e0d643dac850  
